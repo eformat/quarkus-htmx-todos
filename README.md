@@ -3,3 +3,13 @@
 This is a demo application showing the use of [htmx](https://htmx.org/) with a Quarkus backend.
 
 There is also a [Hotwire](https://hotwire.dev/) version for comparison: https://github.com/derkoe/quarkus-hotwire-todos
+
+Run postgres
+```bash
+podman-compose up -d
+```
+
+Run the app locally
+```bash
+mvn quarkus:dev
+```
